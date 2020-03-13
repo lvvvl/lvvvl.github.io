@@ -6,7 +6,7 @@
 # 用法
 curl http://{TiDBIP}:10080/info/all
 # 例如
-$curl http://127.0.0.1:10080/info/all
+curl http://127.0.0.1:10080/info/all
 {
     "servers_num": 2,
     "owner_id": "29a65ec0-d931-4f9e-a212-338eaeffab96",
@@ -38,3 +38,5 @@ $curl http://127.0.0.1:10080/info/all
 ### 7.2.3 DDL 相关参数
 #### 参数
 * `tidb_ddl_reorg_worker_cnt`
+
+1
