@@ -2,7 +2,7 @@
 
 除此之外，也可以通过访问 TiDB 提供的 HTTP 接口查看当前 owner 所在 TiDB，以及各个 TiDB 节点 `ddl_id`、`lease` 等信息，用法如下：
 
-```bash
+```console
 # 用法
 curl http://{TiDBIP}:10080/info/all
 # 例如
@@ -39,4 +39,4 @@ curl http://127.0.0.1:10080/info/all
 #### 参数
 * `tidb_ddl_reorg_worker_cnt`
 
-1
+2
