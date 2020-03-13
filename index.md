@@ -36,6 +36,7 @@ $curl http://127.0.0.1:10080/info/all
 }
 ```
 
+
 ### 7.2.3 DDL 相关参数
 #### 参数
 * `tidb_ddl_reorg_worker_cnt`
